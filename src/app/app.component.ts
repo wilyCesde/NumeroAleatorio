@@ -13,7 +13,12 @@ export class AppComponent implements OnInit {
   randomNumber: number = Math.floor(Math.random() * 10000);
 
   generateRandomNumber() {
-    this.randomNumber = Math.floor(Math.random() * 10000);
+    while (true) {
+      this.randomNumber = Math.floor(Math.random() * 100001);
+      if (this.randomNumber >= 1000 && this.randomNumber < 10000) {
+        break;
+      }
+    }
   }
   ngOnInit() {
     this.generateRandomNumber();
