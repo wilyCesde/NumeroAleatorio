@@ -1,0 +1,53 @@
+
+body {
+  background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.container {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  color: #495057;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+.random-number {
+  /* Estilos anteriores */
+  animation: fadeIn 0.5s ease-in-out; /* Animación de entrada */
+  color: red;
+  border: 5px solid rgb(146, 146, 236);
+  text-shadow: 1px 1px green;
+  font-size: 50px;
+  font-family: Arial;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Opacidad inicial */
+  }
+  to {
+    opacity: 1; /* Opacidad final */
+  }
+}
