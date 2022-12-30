@@ -1,19 +1,14 @@
 
-body {
+
+
+
+.container {
   background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
-.container {
-  background-color: #f8f9fa;
-  border: 1px solid #dee2e6;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 h2 {
   font-size: 24px;
   font-family: 'Montserrat', sans-serif;
